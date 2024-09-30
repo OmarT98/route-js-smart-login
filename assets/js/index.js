@@ -74,7 +74,7 @@ function logIn() {
       userList[i].password.toLowerCase() === password.toLowerCase()
     ) {
       localStorage.setItem("userUsername", userList[i].name);
-      location.replace("/home.html");
+      location.replace("/route-js-smart-login/home.html");
       return true;
     } else {
       document.getElementById("login-verify").innerHTML =
