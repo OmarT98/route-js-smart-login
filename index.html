@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LogIn | A JS 4</title>
+  <link rel="icon" href="./assets/imgs/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+  <div class="container my-5 text-center">
+    <div class="box-container mx-auto p-5 w-75">
+      <h1>Smart Login System</h1>
+      <form>
+        <input id="loginEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+        <input id="loginPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+
+        <button onclick="logIn()" type="button" class="btn btn-outline-success w-100 my-3">Login</button>
+      </form>
+      <p id="login-verify"></p>
+      <p class="text-black">Don’t have an account? <a class="text-black" href="/signup.html">Sign Up</a></p>
+    </div>
+  </div>
+
+
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

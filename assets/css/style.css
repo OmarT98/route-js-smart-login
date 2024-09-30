@@ -1,0 +1,30 @@
+body {
+  background-color: #607274;
+}
+
+.box-container {
+  background-color: #b2a59b;
+  border-radius: 20px;
+  box-shadow: 0px 0px 70px 10px rgba(250, 238, 209, 0.3);
+}
+
+.form-control:focus {
+  border-color: #607274 !important;
+}
+.form-control {
+  border-color: #151c1d !important;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px 2px rgba(96, 114, 116, 1) !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
